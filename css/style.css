@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #333;
+  padding-top: 60px;
+}
+
+/*==============================================================
+header
+==============================================================*/
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.logo {
+  width: 180px;
+  padding-top: 60px;
+}
+.logo img {
+  width: 100%;
+  margin-bottom: 15px;
+  display: block;
+}
+.mainvisual {
+  text-align: center;
+}
+.mainvisual img {
+  max-width: 100%;
+}
+
+/*======================================================
+index
+======================================================*/
+.index-wrapper {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 60px 0;
+}
+.index-wrapper h1 {
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.index-wrapper div {
+  padding: 30px;
+  margin: 0 60px;
+  border: 1px solid #333;
+}
+.index-wrapper ol {
+  list-style-position: outside;
+  width: fit-content;
+  margin: auto;
+}
+.index-wrapper li {
+  padding-bottom: 20px;
+  font-size: 14px;
+  width: fit-content;
+}
+.index-wrapper li:last-child {
+  padding-bottom: 0;
+}
+
+/*========================================================
+photos
+========================================================*/
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 15px;
+  column-gap: 8px;
+}
+.photos img {
+  width: 49%;
+}
+
+/*=====================================================
+detail
+=====================================================*/
+.detail-wrapper {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+.detail-wrapper h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.detail-text {
+  padding: 0 60px;
+  display: flex;
+  font-size: 14px;
+}
+.detail-text dl {
+  border-right: 1px solid #333;
+  width: 42%;
+  padding-right: 40px;
+}
+.detail-text dt {
+  font-weight: bold;
+}
+.detail-text dd {
+  margin-bottom: 10px;
+}
+.detail-text dd:last-child {
+  margin-bottom: 0;
+}
+.detail-text div {
+  padding-left: 40px;
+}
+.detail-text p {
+  padding-bottom: 20px;
+}
+.detail-text a {
+  color: #333;
+}
+.detail-text a:hover {
+  opacity: 0.8;
+}
+
+/*====================================================
+footer
+=====================================================*/
+footer {
+  text-align: center;
+  font-size: 10px;
+  padding: 15px 0;
+}
